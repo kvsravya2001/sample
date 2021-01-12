@@ -2,23 +2,39 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Design/main_page_style.css">
+  <link rel="stylesheet" href="Design/main_page_style1.css">
   <div class="heading">
   <h1>List</h1>
 </div>
 </head>
   <body> 
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class = "content">
+  <ul>
   <div class = "details">
-      <button class ="button1" onclick = "adminFunc()">Vehicle Details Insert</button>
-      <button class ="button1" onclick = "adminFuncV()">Vehicle Details View</button><br>
-      <button class ="button1"onclick = "headFuncV()">Driver Details Insert</button>
-      <button class ="button1"onclick = "headFunc()">Driver Details View</button><br>
-      <button class ="button1" onclick = "employeeFunc()">Vehicle Servicing<br> Details Insert</button>
-      <button class ="button1" onclick = "employeeFuncV()">Vehicle Servicing<br> Details View</button><br>
-      <button class ="button1"onclick = "headFuncVV()">Tyre Details Insert</button>
-      <button class ="button1"onclick = "headFuncVVV()">Tyre Details View</button><br>
-      <button class ="button1"onclick = "ins()">Tyre Repair Insert</button>
-      <button class ="button1"onclick = "insV()">Tyre Repair View</button><br>
+    <div class = "wrap">
+     <li style="--animation-order: 1;"> <button class ="button1" onclick = "adminFunc()">Vehicle Details Insert</button>
+</div>
+     <!-- <li style="--animation-order: 1;"><button class ="button1" onclick = "adminFuncV()">Vehicle Details View</button> -->
+     <div class = "wrap">
+     <li style="--animation-order: 2;"> <button class ="button1"onclick = "headFuncV()">Driver Details Insert</button>
+</div>
+     <!-- <li style="--animation-order: 2;"><button class ="button1"onclick = "headFunc()">Driver Details View</button> -->
+     <div class = "wrap">
+     <li style="--animation-order: 3;"> <button class ="button1" onclick = "employeeFunc()">Servicing Details Insert</button>
+</div>
+     <!-- <li style="--animation-order: 3;"><button class ="button1" onclick = "employeeFuncV()">Servicing Details View</button> -->
+     <div class = "wrap">
+      <li style="--animation-order: 4;"><button class ="button1"onclick = "headFuncVV()">Tyre Details Insert</button>
+</div>
+      <!-- <li style="--animation-order: 4;"><button class ="button1"onclick = "headFuncVVV()">Tyre Details View</button> -->
+      <div class = "wrap">
+     <li style="--animation-order: 5;"> <button class ="button1"onclick = "ins()">Tyre Repair Insert</button>
+</div>
+     <!-- <li style="--animation-order: 5;"> <button class ="button1"onclick = "insV()">Tyre Repair View</button> -->
+</ul>
 </div>
 <script>
     function adminFunc() {
@@ -52,5 +68,6 @@ function insV() {
 		window.open("http://localhost/sample/tyre_repair_retrieve_data.php");
 }
     </script>
+    </div>
   </body>
 </html>

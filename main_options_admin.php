@@ -25,7 +25,7 @@
 		window.open("http://localhost/sample/vehicle_data_insert.php");
 }
 function adminFuncV() {
-		window.open("http://localhost/sample/vehicle_retrive_data.php");
+		window.open("http://localhost/sample/vehicle_retrive_data_admin.php");
 }
 function headFuncV() {
 		window.open("http://localhost/sample/driver_data_insert.php");

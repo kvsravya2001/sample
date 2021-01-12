@@ -2,12 +2,16 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Design/vehicle_data_style.css">
+  <link rel="stylesheet" href="Design/vehicle_data_style1.css">
   <div class="heading">
   <h1>Enter Vehicle Details</h1>
 </div>
 </head>
   <body> 
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class = "content">
   <div class = "details">
 	<form method="post" action="vehicle_data_process.php">
 		<p class="table">Manufacturing Id:<br>
@@ -28,9 +32,9 @@
 	
 <script>
 	function retrieve() {
-		window.open("http://localhost/sample/driver_retrive_data.php");
+		window.open("http://localhost/sample/driver_retrieve_data.php");
 }
 	</script>
-
+</div>
   </body>
 </html>

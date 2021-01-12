@@ -6,12 +6,16 @@ $result = mysqli_query($conn,"SELECT * FROM vehicle_details");
 <html>
  <head>
  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Design/vehicle_retrieve_style.css">
+  <link rel="stylesheet" href="Design/vehicle_retrieve_style1.css">
   <div class="heading">
   <h1>View Vehicle Details</h1>
 </div>
  </head>
 <body>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class = "content">
 <?php
 if (mysqli_num_rows($result) > 0) {
 ?>
@@ -44,5 +48,6 @@ else{
     echo "No result found";
 }
 ?>
+<div>
  </body>
 </html>

@@ -3,13 +3,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Design/admin_login_style.css">
+  <link rel="stylesheet" href="Design/admin_login_style1.css">
   <div class="heading">
   <h1>Shop Head Login</h1>
 </div>
     <title>Login</title>
 </head>
 <body>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class = "content">
 <?php
      session_start();
      include_once 'vehicle_data_database.php';
@@ -41,6 +45,7 @@
         <input type="submit" value="Login" name="submit" class="button1"/><br>
         <p class="link"><a href="head_signup_main.php">New Registration</a></p>
   </form>
+</div>
   </div>
 </body>
 </html>
