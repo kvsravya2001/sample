@@ -28,7 +28,7 @@
 	
 <script>
 	function retrieve() {
-		window.open("http://localhost/sample/tyre_repair_retrieve_data.php");
+		window.open("tyre_repair_retrieve_data.php");
 }
 	</script>
 </div>

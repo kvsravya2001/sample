@@ -54,7 +54,7 @@
 	</div>
 	<script>
 	function retrieve() {
-		window.open("http://localhost/sample/service_retrieve_data.php");
+		window.open("service_retrieve_data.php");
 }
 	</script>
 	</div>

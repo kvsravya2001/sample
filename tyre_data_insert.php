@@ -40,7 +40,7 @@
 	
 <script>
 	function retrieve() {
-		window.open("http://localhost/sample/tyre_retrieve_data.php");
+		window.open("tyre_retrieve_data.php");
 }
 	</script>
 	</div>

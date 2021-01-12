@@ -68,7 +68,7 @@
 	</div>
 	<script>
 	function retrieve() {
-		window.open("http://localhost/sample/driver_retrieve_data.php");
+		window.open("driver_retrieve_data.php");
 }
 	</script>
 	</div>

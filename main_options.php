@@ -38,34 +38,34 @@
 </div>
 <script>
     function adminFunc() {
-		window.open("http://localhost/sample/vehicle_data_insert.php");
+		window.open("vehicle_data_insert.php");
 }
 function adminFuncV() {
-		window.open("http://localhost/sample/vehicle_retrive_data.php");
+		window.open("vehicle_retrive_data.php");
 }
 function headFuncV() {
-		window.open("http://localhost/sample/driver_data_insert.php");
+		window.open("driver_data_insert.php");
 }
 function headFunc() {
-		window.open("http://localhost/sample/driver_retrieve_data.php");
+		window.open("driver_retrieve_data.php");
 }
 function employeeFunc() {
-		window.open("http://localhost/sample/service_data_insert.php");
+		window.open("service_data_insert.php");
 }
 function employeeFuncV() {
-		window.open("http://localhost/sample/service_retrieve_data.php");
+		window.open("service_retrieve_data.php");
 }
 function headFuncVV() {
-		window.open("http://localhost/sample/tyre_data_insert.php");
+		window.open("tyre_data_insert.php");
 }
 function headFuncVVV() {
-		window.open("http://localhost/sample/tyre_retrieve_data.php");
+		window.open("tyre_retrieve_data.php");
 }
 function ins() {
-		window.open("http://localhost/sample/tyre_repair_data_insert.php");
+		window.open("tyre_repair_data_insert.php");
 }
 function insV() {
-		window.open("http://localhost/sample/tyre_repair_retrieve_data.php");
+		window.open("tyre_repair_retrieve_data.php");
 }
     </script>
     </div>

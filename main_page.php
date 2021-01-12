@@ -8,9 +8,9 @@
   <img src="images/more options.png" alt="More options" class="dropbtn" onclick = "myFunction()">
 </div> 
   <div id="myDropdown" class="dropdown-content">
-    <a href="http://localhost/sample/admin_login_main.php" class="admin">Admin</a>
-    <a href="http://localhost/sample/head_login_main.php" class = "admin">Shop Head</a>
-    <a href="http://localhost/sample/employee_login_main.php" class = "admin">Employee</a>
+    <a href="admin_login_main.php" class="admin">Admin</a>
+    <a href="head_login_main.php" class = "admin">Shop Head</a>
+    <a href="employee_login_main.php" class = "admin">Employee</a>
   </div>
 </div>
 </head>
@@ -28,13 +28,13 @@
 </div>
 <script>
     function adminFunc() {
-		window.open("http://localhost/sample/admin_login_main.php");
+		window.open("admin_login_main.php");
 }
 function headFunc() {
-		window.open("http://localhost/sample/head_login_main.php");
+		window.open("head_login_main.php");
 }
 function employeeFunc() {
-		window.open("http://localhost/sample/employee_login_main.php");
+		window.open("employee_login_main.php");
 }
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");

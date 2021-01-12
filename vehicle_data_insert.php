@@ -32,7 +32,7 @@
 	
 <script>
 	function retrieve() {
-		window.open("http://localhost/sample/driver_retrieve_data.php");
+		window.open("vehicle_retrive_data.php");
 }
 	</script>
 </div>
