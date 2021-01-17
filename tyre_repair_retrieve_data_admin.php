@@ -1,6 +1,6 @@
 <?php
 include_once 'vehicle_retrieve_database.php';
-$result = mysqli_query($conn,"SELECT * FROM vehicle_details"); 
+$result = mysqli_query($conn,"SELECT * FROM tyre_repair_details");
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,9 +23,8 @@ if (mysqli_num_rows($result) > 0) {
   <table>
   
   <tr>
-    <td><b>Manufacturing Id</b></td>
-    <td><b>Truck Model</b></td>
-    <td><b>Number of wheels</b></td>
+    <td><b>Physical Tyre Id</b></td>
+    <td><b>NSD Value</b></td>
     <td><b>Delete</b></td>
   </tr>
 <?php
@@ -33,11 +32,9 @@ $i=0;
 while($row = mysqli_fetch_array($result)) {
 ?>
 <tr>
-    <td><?php echo $row["manufacturing_id"]; ?></td>
-    <td><?php echo $row["truck_model"]; ?></td>
-    <td><?php echo $row["no_of_wheels"]; ?></td>
-    <td><a href="delete.php?id=<?php echo $row['manufacturing_id']; ?>" name = 'delete'>Delete</a></td>
-    
+    <td><?php echo $row["physical_tyre_id"]; ?></td>
+    <td><?php echo $row["nsd"]; ?></td>
+    <td><a href="delete_tyrer.php?id=<?php echo $row['physical_tyre_id']; ?>" name = 'delete'>Delete</a></td>
 </tr>
 <?php
 $i++;
@@ -54,4 +51,3 @@ else{
 </div>
  </body>
 </html>
-

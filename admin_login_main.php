@@ -30,8 +30,9 @@
         $rows = mysqli_num_rows($result);
         if ($rows == 1) {
             $_SESSION['email'] = $email;
+            $table_name = 'admin_register';
             // Redirect to user dashboard page
-            header("Location: main_options.php");
+            header("Location: main_options_admin.php");
         } else {
             echo "<h3>Incorrect Username/password.</h3>";
         }

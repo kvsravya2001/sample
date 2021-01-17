@@ -30,6 +30,7 @@
         $rows = mysqli_num_rows($result);
         if ($rows == 1) {
             $_SESSION['email'] = $email;
+            $table_name = 'employee_register';
             // Redirect to user dashboard page
             header("Location: main_options.php");
         } else {

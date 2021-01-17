@@ -1,12 +1,15 @@
 <?php
 session_start();
-include_once 'admin_database.php';
-
-
+include_once 'vehicle_retrieve_database.php';
+if(isset($_GET['id'])) {
 $rn = $_GET['id'];
+}
+else{
+    $rn = 0;
+ 
+}
 
-
-$query = "DELETE FROM vehicle_details WHERE manufacturing_id = '$rn'";
+$query = "DELETE FROM driver_details WHERE driver_id = $rn";
 
 $data = mysqli_query($conn, $query);
 

@@ -34,7 +34,7 @@ function headFunc() {
 		window.open("head_login_main.php");
 }
 function employeeFunc() {
-		window.open("employee_login_main.php");
+		window.open("employee_login_main_i.php");
 }
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");

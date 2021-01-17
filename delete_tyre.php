@@ -2,11 +2,15 @@
 session_start();
 include_once 'admin_database.php';
 
-
+if(isset($_GET['id'])) {
 $rn = $_GET['id'];
+}
+else{
+    $rn = "p";
+ 
+}
 
-
-$query = "DELETE FROM vehicle_details WHERE manufacturing_id = '$rn'";
+$query = "DELETE FROM tyre_details WHERE tyre_id = '$rn'";
 
 $data = mysqli_query($conn, $query);
 
